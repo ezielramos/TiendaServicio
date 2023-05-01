@@ -1,4 +1,4 @@
-namespace TiendaServicios.Api.Libro
+namespace TiendaServicios.Api.CarritoCompra
 {
 	public class WeatherForecast
 	{

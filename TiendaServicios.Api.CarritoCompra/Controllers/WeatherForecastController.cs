@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace TiendaServicios.Api.Libro.Controllers
+namespace TiendaServicios.Api.CarritoCompra.Controllers
 {
 	[ApiController]
 	[Route("[controller]")]
