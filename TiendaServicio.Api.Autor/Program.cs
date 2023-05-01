@@ -16,6 +16,7 @@ builder.Services.AddDbContext<ContextoAutor>(options => {
 });
 
 builder.Services.AddMediatR(typeof(Nuevo.Manejador).Assembly);
+builder.Services.AddAutoMapper(typeof(Consulta.Manejador));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
