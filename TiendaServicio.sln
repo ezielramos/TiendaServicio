@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicio.Api.Autor", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Libro", "TiendaServicios.Api.Libro\TiendaServicios.Api.Libro.csproj", "{A34F6D43-5B40-44A9-83ED-A2233420B99D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.CarritoCompra", "TiendaServicios.Api.CarritoCompra\TiendaServicios.Api.CarritoCompra.csproj", "{046D0B72-FD6B-408E-8732-65F88B6E0E70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.CarritoCompra", "TiendaServicios.Api.CarritoCompra\TiendaServicios.Api.CarritoCompra.csproj", "{046D0B72-FD6B-408E-8732-65F88B6E0E70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Libro.Tests", "TiendaServicios.Api.Libro.Tests\TiendaServicios.Api.Libro.Tests.csproj", "{ED5131B9-A9A2-4864-879A-DCE16B90C745}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaServicios.Api.Libro.Tests", "TiendaServicios.Api.Libro.Tests\TiendaServicios.Api.Libro.Tests.csproj", "{ED5131B9-A9A2-4864-879A-DCE16B90C745}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{72BF1299-7210-452E-A3F1-5FA336F60D91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaServicios.Api.Gateway", "TiendaServicios.Api.Gateway\TiendaServicios.Api.Gateway.csproj", "{3D73B4A9-5D95-4CAA-931B-28CCDF6FD263}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{ED5131B9-A9A2-4864-879A-DCE16B90C745}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED5131B9-A9A2-4864-879A-DCE16B90C745}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED5131B9-A9A2-4864-879A-DCE16B90C745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BF1299-7210-452E-A3F1-5FA336F60D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BF1299-7210-452E-A3F1-5FA336F60D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BF1299-7210-452E-A3F1-5FA336F60D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BF1299-7210-452E-A3F1-5FA336F60D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D73B4A9-5D95-4CAA-931B-28CCDF6FD263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D73B4A9-5D95-4CAA-931B-28CCDF6FD263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D73B4A9-5D95-4CAA-931B-28CCDF6FD263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D73B4A9-5D95-4CAA-931B-28CCDF6FD263}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
